@@ -61,6 +61,7 @@
 
           p.hdl = getQuantityValueAndUnit(hdl[0]);
           p.ldl = getQuantityValueAndUnit(ldl[0]);
+          p.weight = getQuantityValueAndUnit(weight[0]);
 
           ret.resolve(p);
         });
